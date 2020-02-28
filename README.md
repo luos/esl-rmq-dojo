@@ -1,4 +1,4 @@
-# ConsumerAndPublisher
+# RabbitMQ Practice App
 
 Demo Application for Erlang Solutions Budapest Office RabbitMQ Dojo.
 
