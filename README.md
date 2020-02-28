@@ -13,3 +13,5 @@ Demo Application for Erlang Solutions Budapest Office RabbitMQ Dojo.
 ### Baics 1
 
 Fill in the gaps. Don't look in the `_solutions` file. :)
+
+1. Run it with `mix run lib/basics_1.exs`
