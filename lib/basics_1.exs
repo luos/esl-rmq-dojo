@@ -37,7 +37,8 @@ Logger.info("")
 
 # :ok = ...
 
-## Publish a persistent message to the queue through the exchange
+## Publish a persistent message to the queue through the exchange, using the routing key specified 
+## above
 
 # :ok = ...
 
