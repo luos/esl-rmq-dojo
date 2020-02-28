@@ -10,13 +10,14 @@ rabbitmq_password = "guest"
 your_name = "##PUT YOUR NAME HERE%%"
 
 
-{:ok, my_connection} = Connection.open(host: rabbitmq_host, 
-  port: 5672, 
-  heartbeat: 60, 
-  name: "Connection of " <> your_name,
-  username: username,
-  password: password
-)
+{:ok, my_connection} = Connection.open(
+    host: rabbitmq_host, 
+    port: 5672, 
+    heartbeat: 60, 
+    name: "Connection of " <> your_name,
+    username: username,
+    password: password
+  )
 
 {:ok, my_channel} = Channel.open(my_connection)
 
